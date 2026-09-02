@@ -1,41 +1,25 @@
-# 👋 Hi, I'm Emmanuel Bangura  
-**Information Systems Student | Aspiring System Administrator | IT Support Experience**
+# Defense Supplier Risk Dashboard (FOCI Scoring)
 
-I’m a Business Information Systems student at Virginia Commonwealth University with hands-on experience in IT support, customer service, and technical troubleshooting. Through my help desk work, I’ve assisted users with hardware issues, device setup, ticketing, and onboarding new staff, which strengthened my communication and problem-solving skills.
+A Python/pandas project that scores fictional defense suppliers for 
+Foreign Ownership, Control, or Influence (FOCI) risk — a core concept 
+in supply chain risk management (SCRM) for defense contractors.
 
-I’m currently building my foundational IT knowledge as I work toward a future role in system administration.
+## What it does
+- Generates a dataset of 40 fictional suppliers with realistic attributes 
+  (country, industry, risk score, foreign ownership, single-source status)
+- Applies a custom risk-scoring function that weighs FOCI-relevant factors:
+  foreign ownership and single-source dependency both increase a supplier's 
+  risk score
+- Classifies each supplier as HIGH / MEDIUM / LOW risk
+- Outputs a scored CSV ready for further analysis or reporting
 
----
+## Results
+Out of 40 suppliers: 22 HIGH RISK, 8 MEDIUM RISK, 10 LOW RISK
 
-## 🔧 What I'm Learning Right Now
-- CompTIA **Security+** (in progress)  
-- Windows administration fundamentals  
-- PowerShell basics  
-- Active Directory basics  
-- Networking fundamentals (DNS, DHCP, subnets)  
-- Microsoft 365 administration basics  
+## Tools used
+Python, pandas, Google Colab
 
----
-
-## 🧰 Technical Skills
-- **IT Support:** Troubleshooting hardware/software, device setup, ticketing, remote assistance  
-- **Tools:** Windows, macOS, Microsoft 365, remote support tools  
-- **Developing Skills:** Windows Server basics, Active Directory basics, PowerShell, networking  
-- **Soft Skills:** Customer support, communication, training others, problem-solving  
-
----
-
-## 🎓 Education
-**Virginia Commonwealth University (VCU)**  
-B.S. in Business Information Systems  
-Class of 2027
-
----
-
-## 📫 Connect With Me
-- **LinkedIn:** https://www.linkedin.com/in/emmanuel-bangura  
-- **Email:** mannybangura45@gmail.com  
-
----
-
-🚀 *Thanks for visiting my profile! I’ll continue updating my GitHub as I learn and grow in the IT and system administration space.*
+## Why I built this
+Built as part of a supply chain analyst portfolio, focused on 
+supplier risk management — a growing area in both defense/federal 
+contracting and commercial procurement.
